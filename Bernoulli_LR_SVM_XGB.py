@@ -171,11 +171,11 @@ print(classification_report(y_test, y_pred4))
 #Setting twitter API 
 import tweepy
 
-consumer_key = "z4eXbyALxvkOODCNafLiywMmr"
-consumer_secret_key = "Z1DmX40VkH6HsXfOlW2yObUQeBeoxmW1wIlS9MVwkUwpa3N5dS"
+consumer_key = "your consumer key"
+consumer_secret_key = "your consumer secret key"
 
-access_token = '1372256857050517509-USUehtp3cqFAFUEjLdEm9nuQ4No8SX'
-access_token_secret = 'o0cKXbjgaF49adIZATEqUNnWYvGwsVW1OCpyi59LsPBxk'
+access_token = 'your access token'
+access_token_secret = ' your secret access token'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret_key)
 auth.set_access_token(access_token, access_token_secret)
